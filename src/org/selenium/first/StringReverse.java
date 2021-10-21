@@ -2,7 +2,13 @@ package org.selenium.first;
 
 public class StringReverse {
 	
+	private void string() {
+		System.out.println("reverse string");
+	}
+	
 	public static void main(String[] args) {
+		StringReverse st = new StringReverse();
+		st.string();
 		
 		String s = "hello";
 		String s1 = " ";
